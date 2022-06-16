@@ -1,0 +1,133 @@
+.fundo { 
+	background-color:rgba(252.87500202655792, 249.71405804157257, 249.71405804157257, 1);
+	width:1580px;
+	height:1852px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+}
+.fundo-logo { 
+	background-color:rgba(0, 0, 0, 1);
+	width:1580px;
+	height:317px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.logo { 
+	width:466px;
+	height:397px;
+	position:absolute;
+	left:540px;
+	top:-17px;
+	background-image:url(images/logo_site_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.txt-quem { 
+	color:rgba(0, 0, 0, 1);
+	width:312px;
+	height:62px;
+	position:absolute;
+	left:33px;
+	top:466px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:48px;
+	letter-spacing:0;
+}
+.txt-tex { 
+	color:rgba(0, 0, 0, 1);
+	width:1414px;
+	height:462px;
+	position:absolute;
+	left:28px;
+	top:1070px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+}
+.img-loja { 
+	width:706px;
+	height:417px;
+	position:absolute;
+	left:28px;
+	top:570px;
+	background-image:url(images/franquias_geeks_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.barra-men { 
+	background-color:rgba(253.93750101327896, 0, 0, 1);
+	width:1580px;
+	height:54px;
+	position:absolute;
+	left:2px;
+	top:340px;
+}
+.txt-sobre { 
+	color:rgb(0, 0, 0);
+	width:212.21315002441406px;
+	height:52px;
+	position:absolute;
+	left:894px;
+	top:345px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.txt-com { 
+	color:rgba(0, 0, 0, 1);
+	width:188.8595428466797px;
+	height:52px;
+	position:absolute;
+	left:637px;
+	top:345px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.txt-hom { 
+	color:rgba(0, 0, 0, 1);
+	width:108.64500427246094px;
+	height:52px;
+	position:absolute;
+	left:441px;
+	top:345px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.barra-cop { 
+	background-color:rgb(0, 0, 0);
+	width:1580px;
+	height:53px;
+	position:absolute;
+	left:-1px;
+	top:1799px;
+}
+.txt-cop2 { 
+	color:rgba(255, 255, 255, 1);
+	width:229px;
+	height:36px;
+	position:absolute;
+	left:57px;
+	top:1808px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:28px;
+	letter-spacing:0;
+}
+.maps { 
+	width:506px;
+	height:217px;
+	position:absolute;
+	left:1080px;
+	top:1380px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
