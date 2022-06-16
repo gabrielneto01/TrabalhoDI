@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <title> UCHIHA - Cadastro </title>
+    <meta name="description" content="Figma htmlGenerator">
+    <meta name="author" content="htmlGenerator">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles-3.css">
+
+    <style>
+        body {
+            background: #E5E5E5;
+        }
+    </style>
+
+</head>
+
+<body>
+    <style>
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:visited {
+          color: rgb(255, 255, 255);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:hover {
+          color: rgb(255, 255, 255);
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        
+        a:active {
+          color: blue;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        </style>
+    <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div>
+            <h1 id="titulo">Cadastro de Nerds</h1>
+            <p id="subtitulo">preencha seus dados abaixo</p>
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>Qual personagem de anime voce mais gosta ?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Naruto
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Madara
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Sasuke
+                </label>
+            </div>
+
+            <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+            <div class="campo">
+                <label for="senioridade"><strong>Nível nerd</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Baixo</option>
+                  <option>Médio</option>
+                  <option>Alto</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <div id="check">
+                    <label><strong>Selecione os produtos que mais gosta:</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="produto1">
+                    <label for="tecnologia1"> Moletom</label>
+                    <input type="checkbox" id="tecnologia2" name="produto2">
+                    <label for="tecnologia2"> Colar</label>
+                    <input type="checkbox" id="tecnologia3" name="produto3">
+                    <label for="tecnologia3"> Almofada</label>
+                    <input type="checkbox" id="tecnologia4" name="produto4">
+                    <label for="tecnologia4"> Máscara</label>
+                    <input type="checkbox" id="tecnologia5" name="produto5">
+                    <label for="tecnologia5"> Anel</label>
+                    <input type="checkbox" id="tecnologia6" name="produto6">
+
+                </div>
+            </fieldset>
+
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Conte um pouco mais dos seus gostos: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">Concluído</button>
+            <button class="HOM" type="submit" onsubmit=""><a href="index.html">HOME</a></button>              
+
+        </form>
+
+        
+</body>
+
+</html>

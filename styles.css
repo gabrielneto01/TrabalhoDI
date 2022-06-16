@@ -1,0 +1,387 @@
+.fundo { 
+	background-color:rgba(0, 0, 0, 1);
+	width:1580px;
+	height:1850px; 
+	position:absolute;
+	top: 0px;
+	left: 0px;
+}
+.fundo-pro { 
+	background-color:rgba(184.87500607967377, 184.10469621419907, 184.10469621419907, 1);
+	width:1341px;
+	height:883px;
+	position:absolute;
+	left:58px;
+	top:720px;
+}
+.bara-topo { 
+	background-color:rgba(184.87500607967377, 184.10469621419907, 184.10469621419907, 1);
+	width:1580px;
+	height:65px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.barra-cop { 
+	background-color:rgba(184.87500607967377, 184.10469621419907, 184.10469621419907, 1);
+	width:1580px;
+	height:53px;
+	position:absolute;
+	left:0px;
+	top:1799px;
+}
+.barra-pes { 
+	background-color:rgb(255, 255, 255);
+	width:1580px;
+	height:88px;
+	position:absolute;
+	left:0px;
+	top:65px;
+}
+.barra-pes2 { 
+	background-color:rgb(232, 232, 232);
+	width:1188px;
+	height:49px;
+	position:absolute;
+	left:173px;
+	top:85px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.logo { 
+	width:131px;
+	height:110px;
+	position:absolute;
+	left:22px;
+	top:60px;
+	background-image:url(images/logo_site_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.txt-entrar { 
+	color:rgb(0, 0, 0);
+	width:61px;
+	height:26px;
+	position:absolute;
+	left:81px;
+	top:19px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+	
+}
+.txt-cadastrar { 
+	color:rgb(255, 255, 255);
+	width:90px;
+	height:26px;
+	position:absolute;
+	left:164px;
+	top:19px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.txt-moletomseis { 
+	color:rgba(0, 0, 0, 1);
+	width:343px;
+	height:21px;
+	position:absolute;
+	left:73px;
+	top:1062px;
+	font-family:Arial;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}
+.txt-anel { 
+	color:rgba(0, 0, 0, 1);
+	width:178px;
+	height:21px;
+	position:absolute;
+	left:73px;
+	top:1519px;
+	font-family:Arial;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}
+.txt-colar { 
+	color:rgba(0, 0, 0, 1);
+	width:146px;
+	height:21px;
+	position:absolute;
+	left:572px;
+	top:1519px;
+	font-family:Arial;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}
+.txt-almofada { 
+	color:rgba(0, 0, 0, 1);
+	width:176px;
+	height:21px;
+	position:absolute;
+	left:1055px;
+	top:1519px;
+	font-family:Arial;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}
+.txt-mascara { 
+	color:rgba(0, 0, 0, 1);
+	width:202px;
+	height:21px;
+	position:absolute;
+	left:572px;
+	top:1062px;
+	font-family:Arial;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}
+.txt-moleomyou { 
+	color:rgba(0, 0, 0, 1);
+	width:205px;
+	height:21px;
+	position:absolute;
+	left:1055px;
+	top:1062px;
+	font-family:Arial;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+}
+.img-colar { 
+	width:330px;
+	height:328px;
+	position:absolute;
+	left:572px;
+	top:1175px;
+	background-image:url(images/colar_naruto_aldeia_da_folha_231_1_20220309171739_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.img-almo { 
+	width:330px;
+	height:328px;
+	position:absolute;
+	left:1055px;
+	top:1175px;
+	background-image:url(images/4d5d07dc7345badd11015f7b1187d75b_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.img-anel { 
+	width:330px;
+	height:323px;
+	position:absolute;
+	left:73px;
+	top:1180px;
+	background-image:url(images/0a284c9097e573a543882deb4d158075_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.img-moletomseis { 
+	width:330px;
+	height:311px;
+	position:absolute;
+	left:73px;
+	top:735px;
+	background-image:url(images/d_nq_np_868665_mco44830202836_022021_o_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.img-moletomyou { 
+	width:330px;
+	height:311px;
+	position:absolute;
+	left:1055px;
+	top:735px;
+	background-image:url(images/ba46b9ce1eb4107c1090bdfc1618c05a_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.barra-menu { 
+	background-color:rgba(253.93750101327896, 0, 0, 1);
+	width:1580px;
+	height:54px;
+	position:absolute;
+	left:0px;
+	top:625px;
+}
+.img-masca { 
+	width:330px;
+	height:311px;
+	position:absolute;
+	left:572px;
+	top:735px;
+	background-image:url(images/mascara_protecao_naruto_yondaime_anime_119_1_02cd43ebd42b46b23ad01bfe6c566406_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.text-sobre { 
+	color:rgba(0, 0, 0, 1);
+	width:212.21315002441406px;
+	height:52px;
+	position:absolute;
+	left:892px;
+	top:630px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.lupa { 
+	width:35px;
+	height:30px;
+	position:absolute;
+	left:1312px;
+	top:94px;
+	background-image:url(images/icone_loupe_noir_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.carrinho { 
+	width:37px;
+	height:36px;
+	position:absolute;
+	left:1500px;
+	top:100px;
+	background-image:url(images/carrinho_de_compras_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.text-compras { 
+	color:rgba(0, 0, 0, 1);
+	width:188.8595428466797px;
+	height:52px;
+	position:absolute;
+	left:635px;
+	top:630px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.text-home { 
+	color:rgb(0, 0, 0);
+	width:108.64500427246094px;
+	height:52px;
+	position:absolute;
+	left:439px;
+	top:630px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+.img-perfil { 
+	width:40px;
+	height:32px;
+	position:absolute;
+	left:36px;
+	top:16px;
+	background-image:url(images/usu_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.img-banner { 
+	width:1312px;
+	height:410px;
+	position:absolute;
+	left:135px;
+	top:195px;
+	background-image:url(images/banner_of_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.txt-preço1 { 
+	color:rgba(255, 0, 0, 1);
+	width:163px;
+	height:46px;
+	position:absolute;
+	left:138px;
+	top:1090px;
+	font-family:Arial;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.txt-preço2 { 
+	color:rgba(255, 0, 0, 1);
+	width:163px;
+	height:46px;
+	position:absolute;
+	left:138px;
+	top:1547px;
+	font-family:Arial;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.txt-preço3 { 
+	color:rgba(255, 0, 0, 1);
+	width:163px;
+	height:46px;
+	position:absolute;
+	left:645px;
+	top:1547px;
+	font-family:Arial;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.txt-preço4 { 
+	color:rgba(255, 0, 0, 1);
+	width:163px;
+	height:46px;
+	position:absolute;
+	left:1138px;
+	top:1547px;
+	font-family:Arial;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.txt-preço5 { 
+	color:rgba(255, 0, 0, 1);
+	width:163px;
+	height:46px;
+	position:absolute;
+	left:1138px;
+	top:1090px;
+	font-family:Arial;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.txt-preço6 { 
+	color:rgba(255, 0, 0, 1);
+	width:163px;
+	height:46px;
+	position:absolute;
+	left:645px;
+	top:1090px;
+	font-family:Arial;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.txt-cop { 
+	color:rgb(0, 0, 0);
+	width:229px;
+	height:36px;
+	position:absolute;
+	left:58px;
+	top:1808px;
+	font-family:Calistoga;
+	text-align:left;
+	font-size:28px;
+	letter-spacing:0;
+}
